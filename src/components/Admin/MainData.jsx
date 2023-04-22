@@ -131,8 +131,11 @@ const MainData = () => {
         </div>
       </div>
 
-      
-
+      <div className="flex flex-col sm:flex-row justify-between gap- sm:gap-8 min-w-full">
+        {/* <div className="bg-white rounded-xl h-auto w-full shadow-lg p-2">
+          <Line data={lineState} />
+        </div> */}
+      </div>
       <div className="flex justify-between">
         {/* <div className="bg-white rounded-xl h-auto w-full shadow-lg p-2">
           <Bar data={barState} />
