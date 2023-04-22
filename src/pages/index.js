@@ -4,6 +4,7 @@ import MainData from "@/components/Admin/MainData";
 // import Sidebar from '@/components/Admin/Sidebar/Sidebar'
 import WelcomeBanner from "@/components/WelcomeBanner";
 import PieChart from "@/components/PieChart";
+import Chart from "@/components/ChartPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,8 @@ export default function Home() {
     >
       <WelcomeBanner />
       <MainData />
+      
+
     </main>
   );
 }
