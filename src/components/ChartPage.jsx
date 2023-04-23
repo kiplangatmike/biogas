@@ -22,8 +22,8 @@ const LChart = () => {
   }, [optimumValue]);
 
   return (
-    <div className="w-[48vw] rounded-lg">
-       <h1 className="w-full bg-black mx-auto p-3 my-10 text-xl font-semibold capitalize ">
+    <div className="w-[58vw] rounded-lg">
+       <h1 className="w-full bg-white text-black rounded-2xl mx-auto p-4 mb-2 text-xl font-semibold capitalize ">
         Line Chart
       </h1>
       <div className="flex flex-col w-full">
@@ -37,7 +37,7 @@ const LChart = () => {
             <div className="text-3xl font-bold text-black">{optimumValue}</div>
           </div>
         </div> */}
-        <div className="bg-white shadow-md p-4">
+        <div className="bg-white shadow-md p-4 rounded-2xl">
           <LineChart data={history} optimum={optimumValue} />
         </div>
       </div>

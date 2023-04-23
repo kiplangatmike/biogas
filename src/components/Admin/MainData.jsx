@@ -117,19 +117,19 @@ const MainData = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-6 mb-10">
         <div className="flex flex-col bg-purple-600 text-white gap-2 rounded-xl shadow-lg hover:shadow-xl py-5 px-5">
           <h4 className="text-gray-100 font-medium">Methane</h4>
-          <h2 className="text-5xl font-bold">4%</h2>
+          <h2 className="text-5xl font-bold">30.2%</h2>
         </div>
         <div className="flex flex-col bg-red-500 text-white gap-2 rounded-xl shadow-lg hover:shadow-xl py-5 px-5">
-          <h4 className="text-gray-100 font-medium">Sulphur</h4>
-          <h2 className="text-5xl font-bold">10%</h2>
+          <h4 className="text-gray-100 font-medium">Ammonia</h4>
+          <h2 className="text-5xl font-bold">0%</h2>
         </div>
         <div className="flex flex-col bg-yellow-500 text-white gap-2 rounded-xl shadow-lg hover:shadow-xl py-5 px-5">
           <h4 className="text-gray-100 font-medium">CO2</h4>
-          <h2 className="text-5xl font-bold">20%</h2>
+          <h2 className="text-5xl font-bold">18%</h2>
         </div>
         <div className="flex flex-col bg-green-500 text-white gap-2 rounded-xl shadow-lg hover:shadow-xl py-5 px-5">
-          <h4 className="text-gray-100 font-medium">General</h4>
-          <h2 className="text-5xl font-bold">20%</h2>
+          <h4 className="text-gray-100 font-medium">Temperature</h4>
+          <h2 className="text-5xl font-bold">21℃</h2>
         </div>
       </div>
 
