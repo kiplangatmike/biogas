@@ -1,7 +1,9 @@
-import { useEffect } from "react";
 import Chart from "chart.js/auto";
 import { Doughnut, Line, Pie, Bar } from "react-chartjs-2";
 import PieChart from "../PieChart";
+import { useState, useEffect } from "react";
+
+import LChart from "../ChartPage"
 // import { getAdminProducts } from '../../actions/productAction';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { getAllOrders } from '../../actions/orderAction';
@@ -136,8 +138,7 @@ const MainData = () => {
           <Line data={lineState} />
         </div> */}
       </div>
-
-      <div className="flex flex-col sm:flex-row justify-between gap-3 sm:gap-8 w-screen mb-6">
+      <div className="flex justify-between">
         {/* <div className="bg-white rounded-xl h-auto w-full shadow-lg p-2">
           <Bar data={barState} />
         </div> */}
@@ -147,6 +148,8 @@ const MainData = () => {
           <Doughnut data={doughnutState} />
         </div> */}
         <PieChart />
+        <LChart />
+        
       </div>
     </div>
   );
