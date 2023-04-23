@@ -10,6 +10,8 @@ import PieChart from "../PieChart";
 // import MetaData from '../Layouts/MetaData';
 
 const MainData = () => {
+  
+  // fetch('https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js')
   // const dispatch = useDispatch();
 
   // const { products } = useSelector((state) => state.products);

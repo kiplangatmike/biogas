@@ -47,10 +47,10 @@ function PieChart() {
   return (
     <div className="">
       {/* Doughnut chart */}
-      <h1 className="w-[45vw] rounded-2xl text-center bg-white py-4 mb-2 text-black mx-auto text-xl font-semibold capitalize ">
+      <h1 className=" w-[90vw] md:w-[45vw] rounded-2xl text-center bg-white py-4 mb-2 text-black text-xl font-semibold capitalize ">
         Biogas Chart
       </h1>
-      <div className="w-[45vw] flex mx-auto bg-white rounded-2xl p-4">
+      <div className="w-[90vw] md:w-[45vw] flex bg-white rounded-2xl p-4">
         <div className="borde  border-gray-400 pt-0 rounded-xl w-full h-fit my-auto  shadow-xl pb-2">
           <canvas id="myChart"></canvas>
         </div>
